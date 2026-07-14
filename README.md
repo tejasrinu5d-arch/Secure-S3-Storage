@@ -188,29 +188,6 @@ Attached an IAM Role to an EC2 instance to securely access Amazon S3 without sto
 
 
 
-## Repository Structure
-
-
-
-```
-
-Secure-S3-Storage/
-
-│
-
-├── README.md
-
-├── LICENSE
-
-├── architecture/
-
-├── diagrams/
-
-├── docs/
-
-└── screenshots/
-
-```
 
 
 
