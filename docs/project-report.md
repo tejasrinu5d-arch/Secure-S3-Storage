@@ -1,32 +1,32 @@
-\# Secure S3 Storage
+# Secure S3 Storage
 
-\## Project Report
-
-
-
-\---
+## Project Report
 
 
 
-\# Cover Page
+---
 
 
 
-\# Secure S3 Storage
+# Cover Page
 
 
 
-\### AWS Cloud Security Project
+# Secure S3 Storage
 
 
 
-\*\*Project Name:\*\* Secure S3 Storage
+### AWS Cloud Security Project
 
 
 
-\*\*Prepared By:\*\*  
+**Project Name:** Secure S3 Storage
 
-\*\*Teja Srinivas\*\*
+
+
+**Prepared By:**  
+
+**Teja Srinivas**
 
 
 
@@ -50,11 +50,11 @@ AWS Cloud Security Hands-on Project
 
 
 
-\---
+---
 
 
 
-\# Declaration
+# Declaration
 
 
 
@@ -70,11 +70,11 @@ The work presented in this report is intended solely for educational and portfol
 
 
 
-\---
+---
 
 
 
-\# Acknowledgement
+# Acknowledgement
 
 
 
@@ -90,47 +90,47 @@ This project significantly improved my practical understanding of AWS Cloud Stor
 
 
 
-\---
+---
 
 
 
-\# Table of Contents
+# Table of Contents
 
 
 
-1\. Introduction
+1. Introduction
 
-2\. Project Objectives
+2. Project Objectives
 
-3\. Amazon S3 Overview
+3. Amazon S3 Overview
 
-4\. AWS Services Used
+4. AWS Services Used
 
-5\. Project Architecture
+5. Project Architecture
 
-6\. Security Features
+6. Security Features
 
-7\. Implementation Steps
+7. Implementation Steps
 
-8\. Practical Labs
+8. Practical Labs
 
-9\. Challenges Faced
+9. Challenges Faced
 
-10\. Learning Outcomes
+10. Learning Outcomes
 
-11\. Best Practices
+11. Best Practices
 
-12\. Conclusion
+12. Conclusion
 
-13\. References
-
-
-
-\---
+13. References
 
 
 
-\# 1. Introduction
+---
+
+
+
+# 1. Introduction
 
 
 
@@ -146,11 +146,11 @@ The objective of this project is to build a secure Amazon S3 environment by impl
 
 
 
-\---
+---
 
 
 
-\# 2. Project Objectives
+# 2. Project Objectives
 
 
 
@@ -158,33 +158,33 @@ The primary objectives of this project are:
 
 
 
-\- Create a secure Amazon S3 bucket
+- Create a secure Amazon S3 bucket
 
-\- Upload and manage objects
+- Upload and manage objects
 
-\- Configure Bucket Policies
+- Configure Bucket Policies
 
-\- Enable Versioning
+- Enable Versioning
 
-\- Enable Server-Side Encryption
+- Enable Server-Side Encryption
 
-\- Configure Lifecycle Rules
+- Configure Lifecycle Rules
 
-\- Demonstrate Static Website Hosting
+- Demonstrate Static Website Hosting
 
-\- Secure EC2 access using IAM Roles
+- Secure EC2 access using IAM Roles
 
-\- Implement AWS security best practices
+- Implement AWS security best practices
 
-\- Document the complete implementation
-
-
-
-\---
+- Document the complete implementation
 
 
 
-\# 3. Amazon S3 Overview
+---
+
+
+
+# 3. Amazon S3 Overview
 
 
 
@@ -200,11 +200,11 @@ Each object contains:
 
 
 
-\- Data
+- Data
 
-\- Metadata
+- Metadata
 
-\- Object Key
+- Object Key
 
 
 
@@ -212,25 +212,25 @@ Amazon S3 provides:
 
 
 
-\- 99.999999999% (11 9's) durability
+- 99.999999999% (11 9's) durability
 
-\- High availability
+- High availability
 
-\- Unlimited storage capacity
+- Unlimited storage capacity
 
-\- Fine-grained access control
+- Fine-grained access control
 
-\- Encryption support
+- Encryption support
 
-\- Lifecycle automation
-
-
-
-\---
+- Lifecycle automation
 
 
 
-\# 4. AWS Services Used
+---
+
+
+
+# 4. AWS Services Used
 
 
 
@@ -262,11 +262,11 @@ The following AWS services were used during this project.
 
 
 
-\---
+---
 
 
 
-\# 5. Project Architecture
+# 5. Project Architecture
 
 
 
@@ -314,15 +314,15 @@ The following AWS services were used during this project.
 
 
 
-\---
+---
 
 
 
-\# 6. Security Features Implemented
+# 6. Security Features Implemented
 
 
 
-\## 6.1 Block Public Access
+## 6.1 Block Public Access
 
 
 
@@ -334,19 +334,19 @@ Benefits
 
 
 
-\- Prevents unauthorized access
+- Prevents unauthorized access
 
-\- Protects confidential information
+- Protects confidential information
 
-\- Reduces security risks
-
-
-
-\---
+- Reduces security risks
 
 
 
-\## 6.2 Versioning
+---
+
+
+
+## 6.2 Versioning
 
 
 
@@ -358,19 +358,19 @@ Benefits
 
 
 
-\- Recover deleted files
+- Recover deleted files
 
-\- Restore overwritten files
+- Restore overwritten files
 
-\- Protection against accidental deletion
-
-
-
-\---
+- Protection against accidental deletion
 
 
 
-\## 6.3 Server-Side Encryption
+---
+
+
+
+## 6.3 Server-Side Encryption
 
 
 
@@ -382,19 +382,19 @@ Benefits
 
 
 
-\- Automatic encryption
+- Automatic encryption
 
-\- No application changes required
+- No application changes required
 
-\- Secure storage of data
-
-
-
-\---
+- Secure storage of data
 
 
 
-\## 6.4 Bucket Policy
+---
+
+
+
+## 6.4 Bucket Policy
 
 
 
@@ -406,19 +406,19 @@ Benefits
 
 
 
-\- Fine-grained permissions
+- Fine-grained permissions
 
-\- Secure resource access
+- Secure resource access
 
-\- Better compliance
-
-
-
-\---
+- Better compliance
 
 
 
-\## 6.5 Lifecycle Rules
+---
+
+
+
+## 6.5 Lifecycle Rules
 
 
 
@@ -430,19 +430,19 @@ Benefits
 
 
 
-\- Cost optimization
+- Cost optimization
 
-\- Automated storage management
+- Automated storage management
 
-\- Reduced manual administration
-
-
-
-\---
+- Reduced manual administration
 
 
 
-\## 6.6 Static Website Hosting
+---
+
+
+
+## 6.6 Static Website Hosting
 
 
 
@@ -454,19 +454,19 @@ Features
 
 
 
-\- HTML hosting
+- HTML hosting
 
-\- Public website endpoint
+- Public website endpoint
 
-\- Lightweight hosting solution
-
-
-
-\---
+- Lightweight hosting solution
 
 
 
-\## 6.7 IAM Role Integration
+---
+
+
+
+## 6.7 IAM Role Integration
 
 
 
@@ -478,19 +478,19 @@ Benefits
 
 
 
-\- No Access Keys stored
+- No Access Keys stored
 
-\- Temporary credentials
+- Temporary credentials
 
-\- AWS recommended security practice
-
-
-
-\---
+- AWS recommended security practice
 
 
 
-\# 7. Implementation Steps
+---
+
+
+
+# 7. Implementation Steps
 
 
 
@@ -498,7 +498,7 @@ The following implementation was performed.
 
 
 
-\## Step 1
+## Step 1
 
 
 
@@ -518,11 +518,11 @@ screenshots/bucket-created.png
 
 
 
-\---
+---
 
 
 
-\## Step 2
+## Step 2
 
 
 
@@ -542,11 +542,11 @@ screenshots/uploaded-objects.png
 
 
 
-\---
+---
 
 
 
-\## Step 3
+## Step 3
 
 
 
@@ -566,11 +566,11 @@ screenshots/versioning-enabled.png
 
 
 
-\---
+---
 
 
 
-\## Step 4
+## Step 4
 
 
 
@@ -590,11 +590,11 @@ screenshots/bucket-policy.png
 
 
 
-\---
+---
 
 
 
-\## Step 5
+## Step 5
 
 
 
@@ -614,11 +614,11 @@ screenshots/encryption-enabled.png
 
 
 
-\---
+---
 
 
 
-\## Step 6
+## Step 6
 
 
 
@@ -638,11 +638,11 @@ screenshots/lifecycle-rule-created.png
 
 
 
-\---
+---
 
 
 
-\## Step 7
+## Step 7
 
 
 
@@ -662,11 +662,11 @@ screenshots/static-website-browser.png
 
 
 
-\---
+---
 
 
 
-\## Step 8
+## Step 8
 
 
 
@@ -686,11 +686,11 @@ screenshots/ec2-iam-role.png
 
 
 
-\---
+---
 
 
 
-\# 8. Practical Labs Completed
+# 8. Practical Labs Completed
 
 
 
@@ -698,7 +698,7 @@ The following practical labs were completed successfully.
 
 
 
-\## Lab 1
+## Lab 1
 
 
 
@@ -710,11 +710,11 @@ Completed
 
 
 
-\---
+---
 
 
 
-\## Lab 2
+## Lab 2
 
 
 
@@ -734,11 +734,11 @@ Completed
 
 
 
-\---
+---
 
 
 
-\## Lab 3
+## Lab 3
 
 
 
@@ -758,11 +758,11 @@ Completed
 
 
 
-\---
+---
 
 
 
-\## Lab 4
+## Lab 4
 
 
 
@@ -778,11 +778,11 @@ Completed
 
 
 
-\---
+---
 
 
 
-\## Lab 5
+## Lab 5
 
 
 
@@ -798,11 +798,11 @@ Completed
 
 
 
-\---
+---
 
 
 
-\## Lab 6
+## Lab 6
 
 
 
@@ -822,11 +822,11 @@ Completed
 
 
 
-\---
+---
 
 
 
-\## Lab 7
+## Lab 7
 
 
 
@@ -846,11 +846,11 @@ Completed
 
 
 
-\---
+---
 
 
 
-\## Lab 8
+## Lab 8
 
 
 
@@ -870,11 +870,11 @@ Completed
 
 
 
-\---
+---
 
 
 
-\# 9. Challenges Faced
+# 9. Challenges Faced
 
 
 
@@ -882,19 +882,19 @@ During the project, the following challenges were encountered.
 
 
 
-\- Bucket Policy syntax validation
+- Bucket Policy syntax validation
 
-\- Static Website public access configuration
+- Static Website public access configuration
 
-\- Understanding Block Public Access behavior
+- Understanding Block Public Access behavior
 
-\- IAM Role permissions
+- IAM Role permissions
 
-\- Lifecycle Rule configuration
+- Lifecycle Rule configuration
 
-\- AWS CLI authentication
+- AWS CLI authentication
 
-\- Secure EC2 access using IAM Roles
+- Secure EC2 access using IAM Roles
 
 
 
@@ -902,11 +902,11 @@ These challenges were resolved using AWS documentation and troubleshooting techn
 
 
 
-\---
+---
 
 
 
-\# 10. Learning Outcomes
+# 10. Learning Outcomes
 
 
 
@@ -914,63 +914,63 @@ After completing this project, I gained practical experience in:
 
 
 
-\- Amazon S3 Administration
+- Amazon S3 Administration
 
-\- AWS Identity and Access Management
+- AWS Identity and Access Management
 
-\- Resource-based Policies
+- Resource-based Policies
 
-\- Object Versioning
+- Object Versioning
 
-\- Server-side Encryption
+- Server-side Encryption
 
-\- Lifecycle Management
+- Lifecycle Management
 
-\- Static Website Hosting
+- Static Website Hosting
 
-\- IAM Roles
+- IAM Roles
 
-\- AWS CLI
+- AWS CLI
 
-\- Cloud Storage Security
+- Cloud Storage Security
 
-\- Principle of Least Privilege
+- Principle of Least Privilege
 
-\- AWS Security Best Practices
-
-
-
-\---
+- AWS Security Best Practices
 
 
 
-\# 11. AWS Security Best Practices Followed
+---
 
 
 
-\- Enabled Versioning
-
-\- Enabled Encryption
-
-\- Used IAM Roles instead of Access Keys
-
-\- Applied Principle of Least Privilege
-
-\- Configured Lifecycle Rules
-
-\- Used Bucket Policies
-
-\- Re-enabled Block Public Access after demonstration
-
-\- Avoided storing credentials on EC2
+# 11. AWS Security Best Practices Followed
 
 
 
-\---
+- Enabled Versioning
+
+- Enabled Encryption
+
+- Used IAM Roles instead of Access Keys
+
+- Applied Principle of Least Privilege
+
+- Configured Lifecycle Rules
+
+- Used Bucket Policies
+
+- Re-enabled Block Public Access after demonstration
+
+- Avoided storing credentials on EC2
 
 
 
-\# 12. Future Improvements
+---
+
+
+
+# 12. Future Improvements
 
 
 
@@ -978,33 +978,33 @@ The project can be further enhanced using:
 
 
 
-\- Amazon CloudFront
+- Amazon CloudFront
 
-\- AWS WAF
+- AWS WAF
 
-\- AWS KMS
+- AWS KMS
 
-\- Cross Region Replication
+- Cross Region Replication
 
-\- Event Notifications
+- Event Notifications
 
-\- AWS Lambda
+- AWS Lambda
 
-\- Amazon Macie
+- Amazon Macie
 
-\- AWS Config
+- AWS Config
 
-\- AWS CloudTrail
+- AWS CloudTrail
 
-\- Amazon GuardDuty
-
-
-
-\---
+- Amazon GuardDuty
 
 
 
-\# 13. Conclusion
+---
+
+
+
+# 13. Conclusion
 
 
 
@@ -1024,47 +1024,47 @@ This project strengthened my practical understanding of Amazon S3 administration
 
 
 
-\---
+---
 
 
 
-\# References
+# References
 
 
 
-1\. AWS Official Documentation
+1. AWS Official Documentation
 
 &#x20;  https://docs.aws.amazon.com/
 
 
 
-2\. Amazon S3 Documentation
+2. Amazon S3 Documentation
 
 &#x20;  https://docs.aws.amazon.com/s3/
 
 
 
-3\. AWS IAM Documentation
+3. AWS IAM Documentation
 
 &#x20;  https://docs.aws.amazon.com/iam/
 
 
 
-4\. AWS Well-Architected Framework
+4. AWS Well-Architected Framework
 
 
 
-5\. AWS Security Best Practices
+5. AWS Security Best Practices
 
 
 
-6\. AWS Cloud Practitioner Documentation
+6. AWS Cloud Practitioner Documentation
 
 
 
-\---
+---
 
 
 
-\# End of Report
+# End of Report
 
