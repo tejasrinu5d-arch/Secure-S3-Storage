@@ -272,43 +272,43 @@ The following AWS services were used during this project.
 
 ```
 
-&#x20;                   Internet
+                  Internet
 
-&#x20;                        │
+                        │
 
-&#x20;                        ▼
+                        ▼
 
-&#x20;               Amazon S3 Bucket
+               Amazon S3 Bucket
 
-&#x20;       ┌────────────────────────────┐
+       ┌────────────────────────────┐
 
-&#x20;       │                            │
+       │                            │
 
-&#x20;       │ Versioning                 │
+       │ Versioning                 │
 
-&#x20;       │ Encryption                 │
+       │ Encryption                 │
 
-&#x20;       │ Lifecycle Rule             │
+       │ Lifecycle Rule             │
 
-&#x20;       │ Bucket Policy              │
+       │ Bucket Policy              │
 
-&#x20;       │ Public Access Block        │
+       │ Public Access Block        │
 
-&#x20;       └─────────────┬──────────────┘
+       └─────────────┬──────────────┘
 
-&#x20;                     │
+                     │
 
-&#x20;         Temporary Credentials
+         Temporary Credentials
 
-&#x20;                     │
+                     │
 
-&#x20;                IAM Role
+                IAM Role
 
-&#x20;                     │
+                     │
 
-&#x20;                     ▼
+                     ▼
 
-&#x20;                Amazon EC2
+                Amazon EC2
 
 ```
 
