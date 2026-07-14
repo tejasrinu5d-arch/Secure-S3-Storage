@@ -1,8 +1,8 @@
-\# Secure S3 Storage
+# Secure S3 Storage
 
 
 
-\## Project Overview
+## Project Overview
 
 
 
@@ -14,63 +14,63 @@ This project was completed as part of an AWS Cloud Security learning roadmap.
 
 
 
-\---
+---
 
 
 
-\## Objectives
+## Objectives
 
 
 
-\- Create a secure Amazon S3 bucket
+- Create a secure Amazon S3 bucket
 
-\- Enable object versioning
+- Enable object versioning
 
-\- Configure server-side encryption
+- Configure server-side encryption
 
-\- Implement lifecycle management
+- Implement lifecycle management
 
-\- Apply Bucket Policies
+- Apply Bucket Policies
 
-\- Integrate EC2 with S3 using IAM Roles
+- Integrate EC2 with S3 using IAM Roles
 
-\- Demonstrate Static Website Hosting
+- Demonstrate Static Website Hosting
 
-\- Follow AWS security best practices
-
-
-
-\---
+- Follow AWS security best practices
 
 
 
-\## AWS Services Used
+---
 
 
 
-\- Amazon S3
-
-\- Amazon EC2
-
-\- AWS IAM
-
-\- IAM Roles
-
-\- S3 Bucket Policies
-
-\- Amazon S3 Versioning
-
-\- Amazon S3 Lifecycle Rules
-
-\- Amazon S3 Static Website Hosting
+## AWS Services Used
 
 
 
-\---
+- Amazon S3
+
+- Amazon EC2
+
+- AWS IAM
+
+- IAM Roles
+
+- S3 Bucket Policies
+
+- Amazon S3 Versioning
+
+- Amazon S3 Lifecycle Rules
+
+- Amazon S3 Static Website Hosting
 
 
 
-\## Project Architecture
+---
+
+
+
+## Project Architecture
 
 
 
@@ -78,15 +78,15 @@ This project was completed as part of an AWS Cloud Security learning roadmap.
 
 
 
-\---
+---
 
 
 
-\## Security Features Implemented
+## Security Features Implemented
 
 
 
-\### Block Public Access
+### Block Public Access
 
 
 
@@ -94,11 +94,11 @@ Configured Block Public Access to protect sensitive data stored in the bucket.
 
 
 
-\---
+---
 
 
 
-\### Versioning
+### Versioning
 
 
 
@@ -106,11 +106,11 @@ Enabled Versioning to protect against accidental deletion and object overwrites.
 
 
 
-\---
+---
 
 
 
-\### Server-Side Encryption
+### Server-Side Encryption
 
 
 
@@ -118,11 +118,11 @@ Enabled default encryption using Amazon S3 Managed Keys (SSE-S3 / AES-256).
 
 
 
-\---
+---
 
 
 
-\### Bucket Policy
+### Bucket Policy
 
 
 
@@ -130,11 +130,11 @@ Configured Bucket Policies following the Principle of Least Privilege.
 
 
 
-\---
+---
 
 
 
-\### Lifecycle Rule
+### Lifecycle Rule
 
 
 
@@ -142,11 +142,11 @@ Configured Lifecycle Rules to automatically transition objects and manage storag
 
 
 
-\---
+---
 
 
 
-\### IAM Role Integration
+### IAM Role Integration
 
 
 
@@ -154,41 +154,41 @@ Attached an IAM Role to an EC2 instance to securely access Amazon S3 without sto
 
 
 
-\---
+---
 
 
 
-\## Practical Labs Completed
+## Practical Labs Completed
 
 
 
-\- Create S3 Bucket
+- Create S3 Bucket
 
-\- Upload and Download Objects
+- Upload and Download Objects
 
-\- Delete Objects
+- Delete Objects
 
-\- Enable Versioning
+- Enable Versioning
 
-\- Restore Previous Object Versions
+- Restore Previous Object Versions
 
-\- Configure Bucket Policy
+- Configure Bucket Policy
 
-\- Enable Default Encryption
+- Enable Default Encryption
 
-\- Create Lifecycle Rules
+- Create Lifecycle Rules
 
-\- Static Website Hosting
+- Static Website Hosting
 
-\- EC2 Access to S3 using IAM Role
-
-
-
-\---
+- EC2 Access to S3 using IAM Role
 
 
 
-\## Repository Structure
+---
+
+
+
+## Repository Structure
 
 
 
@@ -214,99 +214,15 @@ Secure-S3-Storage/
 
 
 
-\---
+---
 
 
 
-\## Screenshots
 
 
 
-\### Bucket Created
 
-
-
-!\[Bucket](screenshots/bucket-created.png)
-
-
-
-\---
-
-
-
-\### Versioning Enabled
-
-
-
-!\[Versioning](screenshots/versioning-enabled.png)
-
-
-
-\---
-
-
-
-\### Encryption Enabled
-
-
-
-!\[Encryption](screenshots/encryption-enabled.png)
-
-
-
-\---
-
-
-
-\### Lifecycle Rule
-
-
-
-!\[Lifecycle](screenshots/lifecycle-rule-created.png)
-
-
-
-\---
-
-
-
-\### Bucket Policy
-
-
-
-!\[Policy](screenshots/bucket-policy.png)
-
-
-
-\---
-
-
-
-\### Static Website
-
-
-
-!\[Website](screenshots/static-website-browser.png)
-
-
-
-\---
-
-
-
-\### EC2 Access using IAM Role
-
-
-
-!\[EC2](screenshots/ec2-upload-success.png)
-
-
-
-\---
-
-
-
-\## Learning Outcomes
+## Learning Outcomes
 
 
 
@@ -314,59 +230,59 @@ After completing this project, I gained practical experience in:
 
 
 
-\- Amazon S3 administration
+- Amazon S3 administration
 
-\- AWS Identity and Access Management (IAM)
+- AWS Identity and Access Management (IAM)
 
-\- Secure object storage
+- Secure object storage
 
-\- Data encryption
+- Data encryption
 
-\- Lifecycle automation
+- Lifecycle automation
 
-\- Resource-based access control
+- Resource-based access control
 
-\- Static website hosting
+- Static website hosting
 
-\- AWS security best practices
-
-
-
-\---
+- AWS security best practices
 
 
 
-\## Future Improvements
+---
 
 
 
-\- Amazon CloudFront integration
-
-\- SSE-KMS encryption
-
-\- Cross-Region Replication
-
-\- Event Notifications
-
-\- AWS Lambda integration
-
-\- Amazon Macie
-
-\- Amazon GuardDuty
-
-\- AWS Config Rules
+## Future Improvements
 
 
 
-\---
+- Amazon CloudFront integration
+
+- SSE-KMS encryption
+
+- Cross-Region Replication
+
+- Event Notifications
+
+- AWS Lambda integration
+
+- Amazon Macie
+
+- Amazon GuardDuty
+
+- AWS Config Rules
 
 
 
-\## Author
+---
 
 
 
-\*\*Teja Srinivas\*\*
+## Author
+
+
+
+**Teja Srinivas**
 
 
 
@@ -378,11 +294,11 @@ Cloud Security Engineer Aspirant
 
 
 
-\---
+---
 
 
 
-\## License
+## License
 
 
 
